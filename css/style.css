@@ -100,7 +100,7 @@ footer {
 	height: 30px;
 	text-align: right;
 	padding: 5px 10px;
-	position: fixed;
+	/*position: fixed;*/
 	bottom: 0;
 	width: 100%;
 }
@@ -353,7 +353,7 @@ figcaption {
 	background-color:#F8F5E4;
 	height: 70px;
 	text-align: center;
-	
+	width: 60%;
 
 }
 #zoning2 aside{
@@ -374,4 +374,267 @@ figcaption {
 	color: white;
 	width: 337px;
 	padding: 0px;
+}
+#zoning3 {
+	background: #ffd6d6;
+	width: 800px;
+	text-align: center;
+	text-shadow: 1px 1px 2px darkgrey;
+	color: white;
+	margin: auto;
+}
+#zoning3 section {
+	height: 525px;
+	float: left;
+	width: 50%;
+	background: #205d67;
+	margin: 0;
+	padding: 0;
+}
+#zoning3 section:nth-of-type(2) {
+	background: #639a67;
+}
+#zoning3 footer {
+	height: 70px;
+	width: 100%;
+	background: #d8ebb5;
+	color: black;
+	float: left; /* sinon le footer ne s'affiche pas...*/
+}
+#zoning4 {
+	background: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 2px darkgrey;
+	border: 2px solid black;
+	margin: auto;
+	width: 700px;
+}
+#zoning4 header {
+	height: 90px;
+	background: #d8dfe2;
+}
+#zoning4 header p {
+	margin: 0%;
+}
+#zoning4 nav {
+	height: 50px;
+	margin: 0;
+	background: #71adb5;
+}
+#zoning4 nav p {
+	margin: 0%;
+}
+#zoning4 section {
+	height: 500px;
+	background: #176d81;
+	margin: 20px;
+	padding: 0;
+}
+#zoning4 footer {
+	height: 75px;
+	background: #0d3446;
+}
+#zoning4 section,
+footer {
+	color: white;
+}
+
+#zoning5 {
+	background: orange;
+	text-align: center;
+	text-shadow: 1px 1px 2px darkgrey;
+	border: 2px solid black;
+	margin: 0 auto;
+	font-weight: bolder;
+	color: #fff;
+}
+#zoning5 header {
+	height: 90px;
+	background: #f8d771;
+}
+#zoning5 nav {
+	height: 50px;
+	background: #d6bc6b;
+	border-bottom: 8px solid #c19718;
+}
+#zoning5 .section {
+	margin: 20px;
+	padding: 0;
+}
+#zoning5 .section .z1,
+.z2,
+.z3,
+.z4 {
+	height: 250px;
+	width: 50%;
+	float: left;
+}
+#zoning5 .z1,
+.z4 {
+	background: #d6bc6b;
+}
+#zoning5 .z2,
+.z3 {
+	background: #fce38a;
+}
+#zoning5 footer {
+	height: 75px;
+	background: #f8d771;
+}
+#zoning5 section,
+footer {
+	color: black;
+}
+#zoning5 p {
+	margin: 0%;
+}
+
+#zoning6{
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+}
+#zoning6 header{
+	display: flex;
+}
+ .haut1{
+	width: 20%;
+	background-color: #203562;
+	height: 180px;	
+}
+.haut2{
+	width: 60%;
+	background-color: #3E588F;
+	height: 180px;
+}
+ .haut3{
+	width: 20%;
+	background-color: #203562;
+	height: 180px;
+}
+#zoning6 nav {
+	
+	background-color: #0B5269;
+	border-bottom: #0B5269;
+	padding: 0;
+	margin: 0 auto
+	
+}
+
+#zoning6 {
+	width: 800px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+}
+#zoning6 header {
+	background: #40a497;
+	height: 180px;
+}
+.haut1 {
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: #203562;
+}
+.haut2 {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: #3e588f;
+}
+.haut3 {
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: #203562;
+}
+#zoning6 nav {
+	background: #0b5269;
+	height: 30px;
+	border: none;
+}
+#zoning6 aside {
+	background: #446878;
+	width: 20%;
+	height: 650px;
+	float: left;
+}
+#zoning6 section {
+	width: 80%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.slideshow {
+	background: #314a52;
+	height: 250px;
+}
+#zoning6 .a {
+	background: #c0c5cd;
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+#zoning6 .b {
+	background: #203562;
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+#zoning6 .c,
+.e {
+	background: #c0c5cd;
+	width: 25%;
+	height: 150px;
+	float: left;
+}
+#zoning6 .d,
+.f {
+	background: #203562;
+	width: 25%;
+	height: 150px;
+	display: flex;
+}
+#zoning6 footer {
+	background: #0b5269;
+	height: 50px;
+	color: white;
+}
+ul.fruit {
+	list-style: none;
+}
+ul.fruit li {
+	display: inline;
+	margin: 15px;
+}
+li .fa-regular:hover {
+	font-size: 90%;
+	color: blue;
+}
+li .fa:hover {
+	font-size: 150%;
+	color: darkred;
+}
+.imbriquee,
+.imbriquee ul {
+	padding-left: 15px;
+}
+.imbriquee {
+	cursor: pointer;
+}
+.imbriquee ul {
+	display: none;
+}
+.europe:hover ul,
+.asie:hover ul {
+	display: block;
+}
+.imbriquee li ul li:hover {
+	font-size: 200%;
+	background: #e74c3c;
+	display: inline;
+	box-shadow: 5px 10px 10px grey;
+	transition-duration: 1s;
 }

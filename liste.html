@@ -6,14 +6,14 @@
 >
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Ma page Position</title>
+		<title>Ma page Zoning Correction</title>
 		<link rel="stylesheet" href="css/style.css" />
 		<link
 			href="https://fonts.googleapis.com/css?family=Anton|Lemonada|Oswald"
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
-		<meta name="description" content="Mes positions en HTML/CSS" />
+		<meta name="description" content="Mon zoning en HTML/CSS" />
 		<meta charset="UTF-8" />
 		<link
 			rel="stylesheet"
@@ -23,14 +23,16 @@
 
 	<body>
 		<header>
+			<!--Zone du haut, exp : bannière, logo, slogan ...-->
 			<div id="logo">
 				<a href="#logo">
 					<button type="button">
-						<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+						<i class="fas fa-arrow-circle-up"></i>
 					</button>
 				</a>
 				<img src="img/logo.png" alt="logo" />
 			</div>
+
 			<div id="slogan">
 				<h1>Mon premier site en HTML/CSS</h1>
 			</div>
@@ -43,7 +45,6 @@
 					<i class="fa-brands fa-facebook"></i>
 				</a>
 			</div>
-
 			<div class="clear"></div>
 		</header>
 
@@ -63,79 +64,57 @@
 				<a href="animation.html">Animation</a>
 			</div>
 		</nav>
+
 		<main>
-			<h2>Position</h2>
-
+			<h2>Listes</h2>
 			<section>
-				<h3>Centrer un élément de type block</h3>
-				<div class="centre"></div>
+				<h3>Les listes non-ordonnées - ul</h3>
+				<ul class="fruit">
+					<li><i class="fa-regular fa-hand-spock" aria-hidden="true"></i> Orange</li>
+					<li><i class="fa-regular fa-hand-spock" aria-hidden="true"></i> Fraise</li>
+                    <li><i class="fa-regular fa-hand-spock" aria-hidden="true"></i> Poire</li>
+				</ul>
 			</section>
 
 			<section>
-				<h3>Position Absolute</h3>
-				<p>Carré JAUNE ! Regarde en haut !</p>
-				<div class="absolute"></div>
+				<h3>Les listes ordonnées - ol</h3>
+				<ol>
+					<li>Html/Css</li>
+					<li>PHP/SQL</li>
+					<li>JS/JQUERY</li>
+				</ol>
 			</section>
 
 			<section>
-				<h3>Position Relative</h3>
-				<div class="relative">
-					<div></div>
-				</div>
+				<h3>Listes imbriquées</h3>
+				<ul class="imbriquee">
+					<li class="europe">
+						Europe
+						<ul>
+							<li>France</li>
+							<li>Italie</li>
+							<li>Espagne</li>
+						</ul>
+					</li>
+					<li class="asie">
+						Asie
+						<ul>
+							<li>Chine</li>
+							<li>Japon</li>
+							<li>Laos</li>
+						</ul>
+					</li>
+				</ul>
 			</section>
 
 			<section>
-				<h3>Position fixed</h3>
-				<p>Bouton retour vers le haut</p>
-				<button type="button">
-					<i class="fas fa-arrow-circle-up"></i>
-				</button>
-			</section>
-
-			<section>
-				<h3>Le pourcentage</h3>
-				<div class="trente">30%</div>
-				<div class="cinquante">50%</div>
-				<div class="cent">100%</div>
-			</section>
-
-			<section>
-				<h3>L'attribut Float</h3>
-
-				<div class="float">1</div>
-				<div class="float">2</div>
-				<div class="float">3</div>
-				<div class="float">4</div>
-				<div class="float clear">5</div>
-				<div class="float">6</div>
-				<div class="float">7</div>
-				<div class="float clear">8</div>
-				<div class="float">9</div>
-				<div class="float clear">10</div>
-			</section>
-
-			<!-- <div class="clear"></div> -->
-
-			<section>
-				<h3>Exercice sur le Float</h3>
-
-				<div class="zone"></div>
-				<div class="zone1"></div>
-				<div class="zone2"></div>
-				<div class="zone3"></div>
-				<div class="zone4"></div>
-				<div class="zone clear"></div>
-			</section>
-
-			<section>
-				<h3>Flexbox</h3>
-				<!-- Se place en fonction de l'élément parent -->
-				<article class="flex">
-					<div>1</div>
-					<div>2</div>
-					<div>3</div>
-					<div>4</div>
-				</article>
+				<h3>Listes de définitions</h3>
+				<dl>
+					<dt>F</dt>
+					<dd>Foxtrot</dd>
+					<dd>France</dd>
+					<dd>Food</dd>
+				</dl>
 			</section>
 		</main>
 
